@@ -31,9 +31,9 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
+  - {type: trans}
   - {type: none}
-  - {type: none}
-  - {t: '$$mdi:mouse$$', h: L}
+  - {type: trans}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: NAVI}
   - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -62,10 +62,10 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - ⇲
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - $$mdi:volume-low$$
