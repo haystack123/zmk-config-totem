@@ -539,13 +539,6 @@ path.combo {
 <text x="680" y="217" class="combo tap">~</text>
 <text x="680" y="201" class="combo shifted">$</text>
 </g>
-<g class="combo combopos-17">
-<path d="M150,284 h-112 a6.0,6.0 0 0 1 -6.0,-6.0 v-34" class="combo"/>
-<path d="M150,284 h112 a6.0,6.0 0 0 0 6.0,-6.0 v-5" class="combo"/>
-<rect rx="4" ry="4" x="135" y="264" width="30" height="40" class="combo"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="141" y="275" height="18" width="18.0" class="combo tap glyph mdi:mouse"/>
-<text x="150" y="300" class="combo hold">M</text>
-</g>
 </g>
 </g>
 <g transform="translate(0, 380)" class="layer-NAVI">
