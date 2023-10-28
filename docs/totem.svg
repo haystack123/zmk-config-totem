@@ -272,7 +272,8 @@ path.combo {
     --color--key--text--tap: var(--color--ghost--text--tap);
     --color--key--text--shifted: var(--color--ghost--text--shifted);
     --color--key--text--hold: var(--color--ghost--text--hold);
-}</style>
+}
+</style>
 <g transform="translate(0, 0)" class="layer-BASE">
 <text x="0" y="0" class="label">BASE</text>
 <g transform="translate(0, 48)">
