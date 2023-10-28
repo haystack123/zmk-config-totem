@@ -200,9 +200,6 @@ parse_config:
     combo_tilde:
       align: bottom
       layers: [BASE]
-    combo_mclk:
-      align: bottom
-      layers: [BASE]
 
 draw_config:
   # key dimensions, non-ortho layouts use key_h for width as well
