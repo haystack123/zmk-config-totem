@@ -31,7 +31,7 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
-  - {t: '$$mdi:mouse$$', h: R}
+  - {type: none}
   - {type: none}
   - {t: '$$mdi:mouse$$', h: L}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -40,7 +40,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUMB}
   - FUNC
   - {type: none}
-  - '&ppy_scr_tog'
+  - {type: none}
   NAVI:
   - {type: trans}
   - {t: '$$mdi:dock-window$$', h: '$$mdi:arrow-left-bold$$'}
@@ -62,10 +62,10 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - ⇲
-  - {t: '$$mdi:mouse-move-vertical$$', h: Scroll}
-  - {t: '$$mdi:mouse$$', h: '1'}
-  - {t: '$$mdi:mouse$$', h: DPI}
-  - {t: '$$mdi:mouse$$', h: '2'}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: trans}
   - {type: trans}
   - $$mdi:volume-low$$

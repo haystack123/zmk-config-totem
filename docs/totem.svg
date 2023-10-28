@@ -57,9 +57,6 @@
 <svg id="mdi:mouse">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse" viewBox="0 0 24 24"><path d="M11,1.07C7.05,1.56 4,4.92 4,9H11M4,15A8,8 0 0,0 12,23A8,8 0 0,0 20,15V11H4M13,1.07V9H20C20,4.92 16.94,1.56 13,1.07Z" /></svg>
 </svg>
-<svg id="mdi:mouse-move-vertical">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse-move-vertical" viewBox="0 0 24 24"><path d="M20 6H23L19 2L15 6H18V18H15L19 22L23 18H20V6M9 3.09C11.83 3.57 14 6.04 14 9H9V3.09M14 11V15C14 18.3 11.3 21 8 21S2 18.3 2 15V11H14M7 9H2C2 6.04 4.17 3.57 7 3.09V9Z" /></svg>
-</svg>
 <svg id="mdi:volume-high">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
 </svg>
@@ -411,10 +408,8 @@ path.combo {
 <text x="0" y="0" class="key tap">?</text>
 <text x="0" y="-24" class="key shifted">!</text>
 </g>
-<g transform="translate(32, 224) rotate(-10.0)" class="key keypos-30">
-<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse"/>
-<text x="0" y="24" class="key hold">R</text>
+<g transform="translate(32, 224) rotate(-10.0)" class="key none keypos-30">
+<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key none"/>
 </g>
 <g transform="translate(32, 224) rotate(-10.0)" class="key none keypos-31">
 <rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key none"/>
@@ -451,9 +446,8 @@ path.combo {
 <g transform="translate(870, 224) rotate(10.0)" class="key none keypos-38">
 <rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key none"/>
 </g>
-<g transform="translate(870, 224) rotate(10.0)" class="key keypos-39">
-<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;ppy_scr_tog</tspan></text>
+<g transform="translate(870, 224) rotate(10.0)" class="key none keypos-39">
+<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key none"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="4" ry="4" x="171" y="28" width="30" height="40" class="combo"/>
@@ -639,25 +633,17 @@ path.combo {
 <rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
 <text x="0" y="0" class="key tap">⇲</text>
 </g>
-<g transform="translate(99, 239) rotate(-10.0)" class="key keypos-20">
-<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<use href="#mdi:mouse-move-vertical" xlink:href="#mdi:mouse-move-vertical" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse-move-vertical"/>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 83%">Scroll</tspan></text>
+<g transform="translate(99, 239) rotate(-10.0)" class="key none keypos-20">
+<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key none"/>
 </g>
-<g transform="translate(158, 186) rotate(-4.0)" class="key keypos-21">
-<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse"/>
-<text x="0" y="24" class="key hold">1</text>
+<g transform="translate(158, 186) rotate(-4.0)" class="key none keypos-21">
+<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key none"/>
 </g>
-<g transform="translate(222, 150)" class="key keypos-22">
-<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse"/>
-<text x="0" y="24" class="key hold">DPI</text>
+<g transform="translate(222, 150)" class="key none keypos-22">
+<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key none"/>
 </g>
-<g transform="translate(286, 180)" class="key keypos-23">
-<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:mouse"/>
-<text x="0" y="24" class="key hold">2</text>
+<g transform="translate(286, 180)" class="key none keypos-23">
+<rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key none"/>
 </g>
 <g transform="translate(349, 189)" class="key trans keypos-24">
 <rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key trans"/>
