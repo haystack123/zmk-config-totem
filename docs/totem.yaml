@@ -11,16 +11,16 @@ layers:
   - I,ㅑ
   - O,ㅐ
   - P,ㅔ
-  - {t: 'A,ㅁ', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: 'S,ㄴ', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: 'D,ㅇ', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: 'F,ㄹ', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: 'A,ㅁ', h: Win}
+  - {t: 'S,ㄴ', h: Alt}
+  - {t: 'D,ㅇ', h: Ctrl}
+  - {t: 'F,ㄹ', h: Shift}
   - G,ㅎ
   - H,ㅗ
-  - {t: 'J,ㅓ', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: 'K,ㅏ', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: 'L,ㅣ', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '''', h: '$$mdi:apple-keyboard-command$$', s: '"'}
+  - {t: 'J,ㅓ', h: Shift}
+  - {t: 'K,ㅏ', h: Ctrl}
+  - {t: 'L,ㅣ', h: Alt}
+  - {t: '''', h: Win, s: '"'}
   - Z,ㅋ
   - X,ㅌ
   - C,ㅊ
@@ -34,10 +34,10 @@ layers:
   - {type: trans}
   - {type: none}
   - {type: trans}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-space$$', h: NAVI}
-  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: NUMB}
+  - {t: Enter, h: Ctrl}
+  - {t: Space, h: NAVI}
+  - {t: Backspace, h: Shift}
+  - {t: Delete, h: NUMB}
   - FUNC
   - {type: none}
   - {type: none}
@@ -47,21 +47,21 @@ layers:
   - $$mdi:dock-window$$
   - {t: '$$mdi:dock-window$$', h: '$$mdi:arrow-right-bold$$'}
   - {type: trans}
-  - ⇟
+  - Page Down
   - {t: Word, h: '$$mdi:arrow-left-bold$$'}
   - $$mdi:arrow-up-bold$$
   - {t: Word, h: '$$mdi:arrow-right-bold$$'}
-  - ⇞
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - Page Up
+  - Win
+  - Alt
+  - Ctrl
+  - Shift
   - $$mdi:window-restore$$
-  - ⇱
+  - Home
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - ⇲
+  - End
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -99,10 +99,10 @@ layers:
   - '6'
   - {type: trans}
   - {type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - Shift
+  - Ctrl
+  - Alt
+  - Win
   - '0'
   - '1'
   - '2'
@@ -140,10 +140,10 @@ layers:
   - F6
   - Scroll Lock
   - {type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - Shift
+  - Ctrl
+  - Alt
+  - Win
   - F10
   - F1
   - F2
@@ -177,13 +177,13 @@ combos:
   a: top
   o: 0.8
 - p: [11, 12]
-  k: $$mdi:keyboard-tab$$
+  k: Tab
   l: [BASE]
 - p: [12, 13]
-  k: $$mdi:backspace-outline$$
+  k: Backspace
   l: [BASE]
 - p: [11, 13]
-  k: $$mdi:keyboard-esc$$
+  k: Esc
   l: [BASE]
 - p: [21, 22]
   k: {t: \, s: '#'}
@@ -210,7 +210,7 @@ combos:
   k: 한/영
   l: [BASE]
 - p: [17, 18]
-  k: $$mdi:apple-keyboard-caps$$
+  k: Capslock
   l: [BASE]
 - p: [26, 27]
   k: {t: '[', s: '{'}
