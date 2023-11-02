@@ -43,9 +43,9 @@ layers:
   - {type: none}
   NAVI:
   - {type: trans}
-  - {t: '$$mdi:dock-window$$', h: '$$mdi:arrow-left-bold$$'}
-  - $$mdi:dock-window$$
-  - {t: '$$mdi:dock-window$$', h: '$$mdi:arrow-right-bold$$'}
+  - {t: Desktop, h: '$$mdi:arrow-left-bold$$'}
+  - {t: Desktop, h: All}
+  - {t: Desktop, h: '$$mdi:arrow-right-bold$$'}
   - {type: trans}
   - Page Down
   - {t: Word, h: '$$mdi:arrow-left-bold$$'}

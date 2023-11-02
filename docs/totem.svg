@@ -18,9 +18,6 @@
 <svg id="mdi:bluetooth-off">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-off" viewBox="0 0 24 24"><path d="M13,5.83L14.88,7.71L13.28,9.31L14.69,10.72L17.71,7.7L12,2H11V7.03L13,9.03M5.41,4L4,5.41L10.59,12L5,17.59L6.41,19L11,14.41V22H12L16.29,17.71L18.59,20L20,18.59M13,18.17V14.41L14.88,16.29" /></svg>
 </svg>
-<svg id="mdi:dock-window">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-dock-window" viewBox="0 0 24 24"><path d="M18 18V20H4A2 2 0 0 1 2 18V8H4V18M22 6V14A2 2 0 0 1 20 16H8A2 2 0 0 1 6 14V6A2 2 0 0 1 8 4H20A2 2 0 0 1 22 6M20 6H8V14H20Z" /></svg>
-</svg>
 <svg id="mdi:volume-high">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
 </svg>
@@ -512,16 +509,17 @@ path.combo {
 </g>
 <g transform="translate(150, 66) rotate(-4.0)" class="key keypos-1">
 <rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<use href="#mdi:dock-window" xlink:href="#mdi:dock-window" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:dock-window"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 71%">Desktop</tspan></text>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-7" y="10" height="14" width="14.0" class="key hold glyph mdi:arrow-left-bold"/>
 </g>
 <g transform="translate(222, 30)" class="key keypos-2">
 <rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<use href="#mdi:dock-window" xlink:href="#mdi:dock-window" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:dock-window"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 71%">Desktop</tspan></text>
+<text x="0" y="24" class="key hold">All</text>
 </g>
 <g transform="translate(286, 60)" class="key keypos-3">
 <rect rx="4" ry="4" x="-30" y="-28" width="61" height="57" class="key"/>
-<use href="#mdi:dock-window" xlink:href="#mdi:dock-window" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:dock-window"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 71%">Desktop</tspan></text>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-7" y="10" height="14" width="14.0" class="key hold glyph mdi:arrow-right-bold"/>
 </g>
 <g transform="translate(349, 69)" class="key trans keypos-4">
