@@ -1,33 +1,33 @@
 layout: {qmk_keyboard: totem}
 layers:
   BASE:
-  - Q,ㅂ
-  - W,ㅈ
-  - E,ㄷ
-  - R,ㄱ
-  - T,ㅅ
-  - Y,ㅛ
-  - U,ㅕ
-  - I,ㅑ
-  - O,ㅐ
-  - P,ㅔ
-  - {t: 'A,ㅁ', h: Win}
-  - {t: 'S,ㄴ', h: Alt}
-  - {t: 'D,ㅇ', h: Ctrl}
-  - {t: 'F,ㄹ', h: Shift}
-  - G,ㅎ
-  - H,ㅗ
-  - {t: 'J,ㅓ', h: Shift}
-  - {t: 'K,ㅏ', h: Ctrl}
-  - {t: 'L,ㅣ', h: Alt}
+  - Qㅂ
+  - Wㅈ
+  - Eㄷ
+  - Rㄱ
+  - Tㅅ
+  - Yㅛ
+  - Uㅕ
+  - Iㅑ
+  - Oㅐ
+  - Pㅔ
+  - {t: Aㅁ, h: Win}
+  - {t: Sㄴ, h: Alt}
+  - {t: Dㅇ, h: Ctrl}
+  - {t: Fㄹ, h: Shift}
+  - Gㅎ
+  - Hㅗ
+  - {t: Jㅓ, h: Shift}
+  - {t: Kㅏ, h: Ctrl}
+  - {t: Lㅣ, h: Alt}
   - {t: '''', h: Win, s: '"'}
-  - Z,ㅋ
-  - X,ㅌ
-  - C,ㅊ
-  - V,ㅍ
-  - B,ㅠ
-  - N,ㅜ
-  - M,ㅡ
+  - Zㅋ
+  - Xㅌ
+  - Cㅊ
+  - Vㅍ
+  - Bㅠ
+  - Nㅜ
+  - Mㅡ
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '?', s: '!'}
