@@ -22,32 +22,12 @@ parse_config:
     "&ppy_dpi":
       tap: $$mdi:mouse$$
       hold: DPI
-    "&ppy_scr":
-      tap: $$mdi:mouse-move-vertical$$
-      hold: Scroll
     "&wordpv":
       hold: $$mdi:arrow-left-bold$$
       tap: Word
     "&wordnx":
       hold: $$mdi:arrow-right-bold$$
       tap: Word
-
-    # Mouse
-    "&mkp LCLK":
-      tap: $$mdi:mouse$$
-      hold: L
-    "&mkp RCLK":
-      tap: $$mdi:mouse$$
-      hold: R
-    "&mkp MCLK":
-      tap: $$mdi:mouse$$
-      hold: M
-    "&mkp MB4":
-      tap: $$mdi:mouse$$
-      hold: 1
-    "&mkp MB5":
-      tap: $$mdi:mouse$$
-      hold: 2
 
   # ZMK
   zmk_keycode_map:
@@ -135,29 +115,29 @@ parse_config:
       tap: 0
 
     # Modifiers
-    LCTRL: $$mdi:apple-keyboard-control$$
-    LALT: $$mdi:apple-keyboard-option$$
-    LSHIFT: $$mdi:apple-keyboard-shift$$
-    LSHFT: $$mdi:apple-keyboard-shift$$
-    LCMD: $$mdi:apple-keyboard-command$$
+    LCTRL: Ctrl
+    LALT: Alt
+    LSHIFT: Shift
+    LSHFT: Shift
+    LCMD: Win
 
     # Navi
     UP: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
     RIGHT: $$mdi:arrow-right-bold$$
-    HOME: ⇱
-    END: ⇲
-    PG_DN: ⇟
-    PG_UP: ⇞
+    HOME: Home
+    END: End
+    PG_DN: Page Down
+    PG_UP: Page Up
 
     # Whitespace
-    RET: $$mdi:keyboard-return$$
-    ESC: $$mdi:keyboard-esc$$
-    TAB: $$mdi:keyboard-tab$$
-    SPACE: $$mdi:keyboard-space$$
-    BSPC: $$mdi:backspace-outline$$
-    DEL: $$mdi:backspace-reverse-outline$$
+    RET: Enter
+    ESC: Esc
+    TAB: Tab
+    SPACE: Space
+    BSPC: Backspace
+    DEL: Delete
 
     # Sound
     C_MUTE: $$mdi:volume-off$$
@@ -169,7 +149,7 @@ parse_config:
     BT_SEL: $$mdi:bluetooth-connect$$
 
     # ETC
-    CAPS: $$mdi:apple-keyboard-caps$$
+    CAPS: Capslock
     LANG1: "한/영"
     PSCRN: "Print Screen"
     SCROLLLOCK: "Scroll Lock"
@@ -187,15 +167,15 @@ parse_config:
     combo_tab:
       layers: [BASE]
       key:
-        tap: $$mdi:keyboard-tab$$
+        tap: Tab
     combo_bspc:
       layers: [BASE]
       key:
-        tap: $$mdi:backspace-outline$$
+        tap: Backspace
     combo_esc:
       layers: [BASE]
       key:
-        tap: $$mdi:keyboard-esc$$
+        tap: Esc
     combo_bslh:
       layers: [BASE]
     combo_at:
@@ -218,7 +198,7 @@ parse_config:
     combo_caps:
       layers: [BASE]
       key:
-        tap: $$mdi:apple-keyboard-caps$$
+        tap: Capslock
     combo_lbkt:
       layers: [BASE]
     combo_rbkt:
