@@ -10,13 +10,14 @@ parse_config:
 
     # Macro
     "&wintb":
-      tap: $$mdi:dock-window$$
+      hold: All
+      tap: Desktop
     "&winpv":
       hold: $$mdi:arrow-left-bold$$
-      tap: $$mdi:dock-window$$
+      tap: Desktop
     "&winnx":
       hold: $$mdi:arrow-right-bold$$
-      tap: $$mdi:dock-window$$
+      tap: Desktop
     "&tabnx":
       tap: $$mdi:window-restore$$
     "&ppy_dpi":
